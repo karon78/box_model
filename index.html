@@ -8,31 +8,34 @@
 </head>
 <body>
                                <!--header-->
-<header>
+<header id="case">
     <div class="img"></div>
-    <div class="headerText">
+    <div class="content-wrap">
         <h1>Welcome to Acme Web Solutions</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus doloribus eius ipsum magni nobis numquam
             placeat quae quasi quo, rem!</p>
-        <a class="" href="#s2">Read More</a>
+        <a class="button" href="#s2">Read More</a>
     </div>
 </header>
 <main>
                               <!--секция 1-->
-    <section id="s1">
-        <h2>Web & Application Development</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores assumenda, autem corporis cum
+    <section id="s1" class="grid">
+        <div class="content-wrap">
+            <h2>Web & Application Development</h2>
+        <div class="text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores assumenda, autem corporis cum
             dignissimos doloremque, dolores eligendi eveniet ex fugit nesciunt officiis omnis praesentium quam sapiente
             sint. Ad animi consequatur culpa distinctio id, iure laudantium, modi natus nesciunt obcaecati officiis
             pariatur quae quaerat quisquam reiciendis reprehenderit, voluptatem. Molestias, omnis!</p>
+        </div>
+        </div>
     </section>
                              <!--секция 2-->
-    <section id="s2">
+    <section id="s2" class="grid">
         <article class="card">
             <div class="imageCard">
                 <img src="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg" alt="work space">
             </div>
-            <div class="infoWrapper">
+            <div class="infoCard">
                 <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi magni perspiciatis tempore. Assumenda
                     beatae cupiditate illum obcaecati odit tempora ut?</p>
@@ -43,7 +46,7 @@
                 <img src="https://static.pexels.com/photos/261628/pexels-photo-261628.jpeg"
                      alt="work space">
             </div>
-            <div class="infoWrapper">
+            <div class="infoCard">
                 <h3>Mobile Applications</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi magni perspiciatis tempore. Assumenda
                     beatae cupiditate illum obcaecati odit tempora ut?</p>
@@ -54,7 +57,7 @@
                 <img src="https://static.pexels.com/photos/265087/pexels-photo-265087.jpeg"
                      alt="work space">
             </div>
-            <div class="imageCard">
+            <div class="infoCard">
                 <h3>Tech Marketing</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi magni perspiciatis tempore. Assumenda
                     beatae cupiditate illum obcaecati odit tempora ut?</p>
@@ -62,19 +65,21 @@
         </article>
     </section>
                            <!--секция 3-->
-    <section id="s3">
+    <section id="s3" class="grid">
+        <div class="content-wrap">
         <h2>We handle all of your digital needs</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci error inventore laborum nostrum numquam
             obcaecati odit optio quo sunt velit.</p>
+        </div>
     </section>
                            <!--секция 4-->
-    <section id="s4">
-        <div>
+    <section id="s4" class="grid">
+        <div class="box">
             <h2>Contact Us</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque cum harum ipsa labore.</p>
             <p>contact@acmewebsolutions.test</p>
         </div>
-        <div>
+        <div class="box">
             <h2>About Our Company</h2>
             <p>A autem blanditiis doloremque expedita molestiae natus necessitatibus nobis praesentium quasi quibusdam
                 rerum sapiente, soluta sunt suscipit tempore tenetur veniam?</p>
@@ -82,7 +87,7 @@
     </section>
 
 </main>
-<footer>
+<footer id="footer" class="grid">
     <div>Acme Web Solutions</div>
     <div>Project By <a href="http://traversymedia.com" target="_blank">Traversy Media</a></div>
 
